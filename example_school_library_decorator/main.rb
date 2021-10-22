@@ -34,6 +34,7 @@ class App
 
     puts "\n"
   end
+  
   # rubocop:disable Lint/UselessAssignment
   def show_menu
     puts 'Please choose an option by enterin a number:'

@@ -117,3 +117,5 @@ def main
     puts "\n"
   end
 end
+
+main()

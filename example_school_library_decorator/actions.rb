@@ -99,4 +99,5 @@ module Actions
     puts 'Rental created successfully'
     start_app
   end
+  # rubocop:enable Metrics/MethodLength
 end

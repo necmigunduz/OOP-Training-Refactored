@@ -34,7 +34,7 @@ class App
 
     puts "\n"
   end
-
+  # rubocop:disable Lint/UselessAssignment
   def show_menu
     puts 'Please choose an option by enterin a number:'
     puts '1 - List all books'
@@ -48,7 +48,7 @@ class App
   end
 
   # rubocop:enable Metrics/CyclomaticComplexity
-  # rubocop:enable Metrics/MethodLength
+  # rubocop:enable Lint/UselessAssignment
 end
 
 def main

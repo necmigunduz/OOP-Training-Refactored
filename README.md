@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Setup Association
+# Add Basic UI
 
-> This project is about creating associations bettween Student, Classroom, Teacher, Reantals and Books.
+> This project is about creating a basic UI for a the school library project at microverse.
 
 ## Built With
 
@@ -10,9 +10,9 @@
 
 ## Author
 
-👤 **Wandji Bertrand**
+👤 **Hillary Okello**
 
-- GitHub: [@wandji20](https://github.com/wandji20)
+- GitHub: [@HillaryOkello](https://github.com/HillaryOkello)
 
 ## 🤝 Contributing
 

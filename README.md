@@ -10,9 +10,9 @@
 
 ## Author
 
-👤 **Hillary Okello**
+👤 **Necmi Gunduz**
 
-- GitHub: [@HillaryOkello](https://github.com/HillaryOkello)
+- GitHub: [@Necmi](https://github.com/necmigunduz)
 
 ## 🤝 Contributing
 

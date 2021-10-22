@@ -11,7 +11,6 @@ class App
   end
 
   # rubocop:disable Metrics/CyclomaticComplexity
-  # rubocop:disable Metrics/MethodLength
   def start_app
     response = show_menu
     response = show_menu while response < 1 || response > 7

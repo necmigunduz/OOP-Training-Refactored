@@ -19,4 +19,20 @@ class App
       puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
   end
+
+  def create_person
+    print "Do you want to create a student (1) or a teacher (2)? [Input the number]: "
+    person_type = gets.chomp
+
+    print "Age: "
+    age = gets.chomp
+
+    print "Name: "
+    name = gets.chomp
+
+    person =
+
+    @people << person
+    puts "Person created successfully"
+  end
 end

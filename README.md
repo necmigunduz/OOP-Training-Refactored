@@ -8,6 +8,12 @@
 
 - Ruby
 
+## How To Run
+
+> For running this project:
+- Copy and paste the following command on your terminal: ´git clone git@github.com:necmigunduz/OOP-Training-Refactored.git´,
+- Then ´cd 
+
 ## Author
 
 👤 **Necmi Gunduz**

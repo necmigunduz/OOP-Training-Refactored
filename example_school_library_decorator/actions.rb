@@ -32,8 +32,8 @@ module Actions
 
   def create_person
     print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
-    person_type = 0
     # rubocop:disable Lint/UselessAssignment
+    person_type = 0
     person_type = gets.chomp
     # rubocop:enable Lint/UselessAssignment
 

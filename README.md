@@ -12,7 +12,8 @@
 
 > For running this project:
 - Copy and paste the following command on your terminal: ´git clone git@github.com:necmigunduz/OOP-Training-Refactored.git´,
-
+- Then use the following command to enter the project folder: ´cd example_school_library_decorator´,
+- Finally type the following command on your terminal to run the app: ´ruby main.rb´.
 
 ## Author
 

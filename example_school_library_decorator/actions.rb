@@ -33,38 +33,46 @@ module Actions
   # rubocop:disable Metrics/MethodLength
   def create_person
     print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
+    person_type = 0
     person_type = gets.chomp
+
     if person_type != '1' && person_type != '2'
       puts 'Invalid option'
       return
     end
 
-    print 'Age: '
-    age = gets.chomp
+    case person_type
+    when '1'
+      create_student
+    when '2'
+      create_teacher
+    end
 
-    print 'Name: '
-    name = gets.chomp
-
-    person =
-      case person_type
-      when '1'
-        print 'Has parent permission? [Y/N]: '
-        # *If needed, ask for parameters for the option.
-        parent_permission = gets.chomp
-        parent_permission = parent_permission.downcase == 'y'
-
-        Student.new(age, name, parent_permission)
-      when '2'
-        print 'Specialization: '
-        # *If needed, ask for parameters for the option.
-        specialization = gets.chomp
-
-        Teacher.new(age, specialization, name)
-      end
-
-    @people << person
     puts 'Person created successfully'
     start_app
+  end
+
+  def create_teacher
+    print 'Age: '
+    age = gets.chomp
+    print 'Name: '
+    name = gets.chomp
+    print 'Specialization: '
+    specialization = gets.chomp
+
+    @people.push(Teacher.new(age, specialization, name))
+  end
+
+  def create_student
+    print 'Age: '
+    age = gets.chomp
+    print 'Name: '
+    name = gets.chomp
+    print 'Has parent permission? [Y/N]: '
+    parent_permission = gets.chomp
+    parent_permission = parent_permission.downcase == 'y'
+
+    @people.push(Student.new(age, name, parent_permission))
   end
 
   def create_book
